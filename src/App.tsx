@@ -24,10 +24,6 @@ const App = () => (
         renderItem={() => <Card />}
         keyExtractor={(e, i) => `${e}${i}`}
       />
-      {/* <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={styles.scrollView}>
-      </ScrollView> */}
     </SafeAreaView>
   </>
 );
@@ -39,12 +35,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 10,
     marginVertical: 6,
   },
-  scrollView: {
-    height: '80%',
-  },
   list: {
-    height: '100%',
-    width: '100%',
     backgroundColor: 'teal',
   },
   bar: {
